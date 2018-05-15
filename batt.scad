@@ -1,4 +1,4 @@
-mytext = "BITCH"; textsize = 40; myfonts="plaster";
+mytext = "BITCH"; textsize = 40; myfonts="plaster"; //download this font or use your own
 roundnes = 50; widebat =30; longbat = 300;
 difference(){
 hull(){
