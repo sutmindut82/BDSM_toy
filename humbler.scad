@@ -18,3 +18,6 @@ translate([-185,40,0]) circle(d=300);
    translate([12,-100,0]) circle(d=45); 
         }
 }}//end diff
+
+translate([-247,-123,0])circle(d=53);//corners
+translate([247,-123,0])circle(d=53);
