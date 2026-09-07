@@ -1,5 +1,5 @@
-$fn=70;
-scale(4,4,1){
+$fn=70; // this is for 2D cutout
+scale(thick,4,1){
 difference(){  union(){
 rotate([0,0,45]) square(10,center=true);
 translate([4,4,0])circle(d=10);
