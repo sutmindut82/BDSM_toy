@@ -1,0 +1,13 @@
+$fn=70;
+difference(){
+hull(){
+scale([1,1.5,0.5])sphere(d=50);
+translate([0,70,0])scale([1,1.5,0.5])sphere(d=20);
+}
+//****cut
+hull(){
+scale([0.8,1.3,0.44])sphere(d=50);
+translate([0,65,0])scale([0.8,1.5,0.5])sphere(d=20);
+}
+translate([-30,-40,0])cube([60,130,20]);
+}
