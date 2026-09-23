@@ -1,5 +1,4 @@
-$fn=70; thick=4;// this is for 2D cutout
-scale([thick,thick,1]){
+$fn=70; this is for 2D cutout
 //heart
 difference()
 {  
@@ -25,5 +24,3 @@ translate([0,8,0])difference(){
         translate([7,7,0])circle(d=12);   
     }
  }//end diff tail
- 
- }//scale
